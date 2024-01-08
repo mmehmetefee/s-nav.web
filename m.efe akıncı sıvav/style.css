@@ -1,0 +1,18 @@
+.kutu {
+    display: grid;
+  }
+  
+  .kutu > div {
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .kutu > div:nth-child(even) {
+    background-color: lightcyan;
+  }
+  .kutu {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+ 
